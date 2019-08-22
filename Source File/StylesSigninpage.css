@@ -1,0 +1,193 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+/* FIRST PART */
+
+#headder {
+    
+    width: 100%;
+    height: 70px;
+    overflow: hidden;
+    background: linear-gradient(to right,rgb(10, 10, 10), rgb(22, 33, 54));
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+}
+
+#headder p{
+    font-size: 22px;
+    font-family: Sofia;
+    color: rgb(202, 202, 202);
+    font-weight: bold;
+    display: inline-block;
+    padding-left: 30px;
+}
+
+#logo-main{
+    margin: 15px;
+    margin-top: 17px;
+    margin-left: 35px;
+    text-decoration: none;
+    display: inline-block;
+    font-family: Verdana;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 5px; 
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgba(170, 24, 24, 0.95);
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.466);
+    color: rgb(223, 223, 223);
+    font-size: 20px;
+    border-radius: 80px;
+    transition: all 0.4s;
+} 
+
+#logo-main:hover{
+    background-color: rgba(216, 29, 29, 0.95);
+    color: rgb(255, 255, 255);
+}
+
+.hdrOpt {
+    float: right;
+    margin: 20px;
+    margin-left: 0px;
+    margin-top: 14px;
+    font-size: 13px;
+    font-family: Verdana;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 10px;
+    border-radius: 40px; 
+    transition: all 0.4s;
+}
+
+#signup{
+    background-color: rgb(101, 139, 30);
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.205);
+}
+
+#signup:hover {
+    background-color: rgb(134, 182, 40);
+}
+
+#login:hover {
+    background-color: rgb(134, 182, 40);
+}
+
+/* SECOND PART */
+
+
+#container {
+    width: 100%;
+    height: 950px;
+    overflow: hidden;
+    position: relative;
+    top: 24px;
+    background: linear-gradient(to right,rgb(224, 224, 224), rgb(22, 33, 54));
+}
+
+#containerLayout {
+    width: 50%;
+    height: 950px;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    top: 80px;
+}
+
+#FormBox {
+    margin: 0 auto;
+    font-size: 26px;
+    font-family: Courier New, Courier, monospace;
+    font-weight: bold;
+    color: rgb(22, 22, 22);
+}
+
+.FormBoxInput {
+    background-color: rgb(202, 255, 247);
+    border: 0px;
+    box-shadow: 2px 1px #363636;
+    border-radius: 15px;
+    padding: 5px;
+    padding-left:15px; 
+    padding-right: 15px;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgba(170, 24, 24, 0.95);
+    margin-bottom: 10px;
+}
+
+#textHeader {
+    font-family: 'Sofia';
+    font-size: 55px;
+    font-weight: bold;
+    color: rgb(26, 26, 26);
+    text-shadow:0px 1px #5a5a5a;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+#textHeader:hover {
+    color: rgba(170, 24, 24, 0.95);
+    text-shadow:0px 1px #521c1ca1;
+}
+
+#Aceptbut {
+    margin: 20px;
+    margin-left: 0px;
+    margin-top: 5px;
+    border: 0px;
+    font-size: 18px;
+    font-family: Verdana;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    color: whitesmoke;
+    background: #1c993b;
+    box-shadow: 1.5px 1px 1px 1px #3636367a;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 40px; 
+    transition: all 0.4s;
+    cursor: pointer;
+}
+
+#Aceptbut:hover {
+    color: rgb(255, 255, 255);
+    background: #21b644;
+}
+
+#Cancelbut {
+    margin: 20px;
+    margin-left: 0px;
+    margin-top: 5px;
+    border: 0px;
+    font-size: 18px;
+    font-family: Verdana;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    color: whitesmoke;
+    background: #991c1c;
+    box-shadow: 1.5px 1px 1px 1px #3636367a;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 40px; 
+    transition: all 0.4s;
+    cursor: pointer;
+}
+
+#Cancelbut:hover {
+    color: rgb(255, 255, 255);
+    background: #d32828;
+    
+}
+
+
